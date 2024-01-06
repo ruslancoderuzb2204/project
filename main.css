@@ -80,6 +80,13 @@ a {
   font-size: 28px;
   font-weight: 600;
   line-height: 42px;
+  margin-bottom: 30px;
+}
+.hero__title span{
+    color: #000;
+font-size: 18px;
+font-weight: 300;
+line-height: 28px;
 }
 .hero__cards {
   flex-wrap: wrap;
