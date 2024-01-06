@@ -38,4 +38,25 @@
 }
 a {
     text-decoration: none;
-  }
+}
+
+
+
+.col{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+.dis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    p{
+        margin: 5px 0;
+    }
+}
