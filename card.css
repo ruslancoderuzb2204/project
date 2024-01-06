@@ -28,3 +28,14 @@
     outline: none;
     border: none;
 }
+
+.d-f{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85px;
+    color: rgb(54, 140, 210);
+}
+a {
+    text-decoration: none;
+  }
