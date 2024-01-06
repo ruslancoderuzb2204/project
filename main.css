@@ -33,5 +33,16 @@ body {
     padding: 0 16px;
     margin: 0 auto;
   }
-  
+  #logout-btn {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(
+      0deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 187, 45, 1) 100%
+    );
+  }
   /* End normalize */
