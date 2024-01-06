@@ -1,48 +1,92 @@
 /* Normalize css */
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-style: normal;
-    font-family: "Roboto", sans-serif;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-    padding: 0;
-  }
-  ul {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-  }
-  .d-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .container {
-    max-width: 1140px;
-    width: 100%;
-    padding: 0 16px;
-    margin: 0 auto;
-  }
-  #logout-btn {
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    border-radius: 16px;
-    background: rgb(34, 193, 195);
-    background: linear-gradient(
-      0deg,
-      rgba(34, 193, 195, 1) 0%,
-      rgba(253, 187, 45, 1) 100%
-    );
-  }
-  /* End normalize */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: SF Pro Text;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+#logout-btn {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+/* End normalize */
+/* Header */
+.header {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.header__center {
+  margin-right: 100px;
+}
+.header__link {
+  gap: 30px;
+}
+.header__link li {
+  color: var(--Black, #161c24);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+}
+.header__right {
+  vertical-align: middle;
+  gap: 20px;
+}
+/* Header */
+/* Hero */
+.hero__subtitle {
+  color: var(--Black, #141414);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hero__title {
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+}
+.hero__cards {
+  flex-wrap: wrap;
+}
+.hero__card {
+  width: 288px;
+  height: 453px;
+  border: 1px solid #f6f6f6;
+  margin-bottom: 20px;
+}
