@@ -1,13 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap");
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header{
-    width: 100%;
-    height: 900px;
-    background-color: rgba(24, 24, 24, 0.05);
+.card {
+  width: 836px;
+  height: 394px;
+  background-color: #FFFFFFFF;
+  border: 2px solid black;
+}
 
+
+
+.title{
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
 }
