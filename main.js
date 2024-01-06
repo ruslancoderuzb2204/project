@@ -1,3 +1,4 @@
+const BASE_URL = 
 function checkUser() {
     const loginData = JSON.parse(localStorage.getItem("loginData"));
     if (!loginData) {
@@ -15,4 +16,8 @@ function checkUser() {
   }
   document.getElementById("logout-btn").addEventListener("click", logoutUser);
   
-  
+  const item = document.getElementById("item")
+  item.addEventListener("click",()=>{
+    window.location.href = "about.html"
+    
+  })
