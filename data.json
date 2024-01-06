@@ -1,16 +1,16 @@
 {
     "products" : [
-        {"id":1,"img": "./img/1-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":2,"img": "./img/2-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":3,"img": "./img/3-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":4,"img": "./img/1-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":5,"img": "./img/2-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":6,"img": "./img/3-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":7,"img": "./img/1-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":8,"img": "./img/2-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":9,"img": "./img/3-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":10,"img": "./img/1-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":11,"img": "./img/2-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
-        {"id":12,"img": "./img/3-porduct.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000}
+        {"id":1,"img": "./img/1-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":2,"img": "./img/2-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":3,"img": "./img/3-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":4,"img": "./img/1-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":5,"img": "./img/2-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":6,"img": "./img/3-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":7,"img": "./img/1-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":8,"img": "./img/2-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":9,"img": "./img/3-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":10,"img": "./img/1-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":11,"img": "./img/2-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000},
+        {"id":12,"img": "./img/3-product.png", "title": "Вариативный замок Golden Soft для отеля","cash":false,"newPrice" : 7000,"oldprice":8000}
 ]
 }
