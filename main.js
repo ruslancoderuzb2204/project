@@ -6,13 +6,13 @@ function checkUser() {
   }
   checkUser();
   
-//   function logoutUser() {
-//     const checkConfirm = confirm("Are you sure you want to log out?");
-//     if (checkConfirm) {
-//       localStorage.removeItem("loginData");
-//       checkUser();
-//     }
-//   }
-//   document.getElementById("logout-btn").addEventListener("click", logoutUser);
+  function logoutUser() {
+    const checkConfirm = confirm("Are you sure you want to log out?");
+    if (checkConfirm) {
+      localStorage.removeItem("loginData");
+      checkUser();
+    }
+  }
+  document.getElementById("logout-btn").addEventListener("click", logoutUser);
   
   
