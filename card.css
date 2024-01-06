@@ -48,6 +48,7 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    margin-top: 25px;
     
 }
 
@@ -59,4 +60,39 @@ a {
     p{
         margin: 5px 0;
     }
+}
+
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn-{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #e1e1e1;
+}
+.span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(142, 142, 142);
+}
+.btnAdd{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #e1e1e1 ;
+}
+
+.addElement{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
 }
