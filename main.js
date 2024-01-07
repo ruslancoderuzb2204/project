@@ -1,4 +1,4 @@
-fetch("data.json")
+fetch("http://localhost:3000/products")
   .then((response) => response.json())
   .then((json) => renderData(json.products));
 
@@ -18,7 +18,6 @@ function renderData(data) {
     });
   }
 }
-
 function checkUser() {
   const loginData = JSON.parse(localStorage.getItem("loginData"));
   if (!loginData) {
@@ -36,3 +35,10 @@ function logoutUser() {
 }
 document.getElementById("logout-btn").addEventListener("click", logoutUser);
 
+<<<<<<<<< Temporary merge branch 1
+=========
+const item = document.getElementById("item");
+item.addEventListener("click", () => {
+  window.location.href = "about.html";
+});
+>>>>>>>>> Temporary merge branch 2
