@@ -15,11 +15,19 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-
+.container-about {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-top: 40px;
+}
+.about-img img{
+  max-width: 400px;
+}
 .div {
   background: #454f5b;
   display: flex;
-  /* justify-content: center; */
   padding: 9px 0;
 }
 
@@ -107,19 +115,8 @@ nav {
 }
 
 .about {
-  background-image: url("img/1.png");
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  /* background-size: 1440px 126px; */
   width: 1440px;
   height: 774px;
-  position: relative;
-}
-
-.about__tittle {
-  position: absolute;
-  top: 171px;
-  left: 736px;
 }
 
 .about__tittle h1 {
