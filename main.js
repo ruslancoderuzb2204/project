@@ -41,3 +41,7 @@ function logoutUser() {
 }
 document.getElementById("logout-btn").addEventListener("click", logoutUser);
 
+const item = document.getElementById("item");
+item.addEventListener("click", () => {
+  window.location.href = "about.html";
+});
