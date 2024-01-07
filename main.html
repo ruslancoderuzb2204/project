@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
     <title>Card</title>
 </head>
@@ -41,8 +45,8 @@
             <h4 class="hero__subtitle">Главная / Каталог</h4>
             <h1 class="hero__title">Накладные электронные замки<span>(854)</span></h1>
             <div class="hero__cards d-flex">
-               
-        </div>
+
+            </div>
     </main>
     <!-- Hero -->
     <!-- Section -->
@@ -102,15 +106,67 @@
     <!-- Comment -->
     <!-- Email -->
     <section class="email">
-        <div class="email__box">
-            <h2>Мы Вам перезвоним</h2>
-            <p>Если у вас возникли какие-то вопросы или проблемы, заполните форму и мы Вам перезвоним.</p>
-            <form>
-                <input type="text" placeholder="Ваше имя">
-                <input type="email" placeholder="Ваш Email">
-            </form>
+        <div class="email__box container d-flex">
+            <h2 class="email__title">Мы Вам перезвоним</h2>
+            <p class="email__text">Если у вас возникли какие-то вопросы или проблемы, заполните <br> форму и мы Вам
+                перезвоним.</p>
+            <div class="input__card d-flex">
+                <form>
+                    <input class="email__input" type="text" placeholder="Ваше имя">
+                    <input class="email__input" type="email" placeholder="Ваш Email">
+                    <button type="submit" class="email__btn">Отправить</button>
+                </form>
+            </div>
         </div>
     </section>
+    <!-- Email -->
+    <!-- Footer -->
+    <footer>
+        <div class="footer container">
+            <div class="footer__top d-flex">
+                <div class="footer__left">
+                    <a href="#"><img src="./img/Logo/Site-logo-footer.svg" alt="Site Logo" width="105" height="88"></a>
+                    <a class="footer__socset" href="#"><img src="./img/icons/social-set.svg" alt="Social Set"></a>
+                </div>
+                <div class="footer__right d-flex">
+                    <ul>
+                        <li class="footer__subtitle">Навигация</li>
+                        <li class="footer__link"><a href="#">Главная</a></li>
+                        <li class="footer__link"><a href="#">Каталог</a></li>
+                        <li class="footer__link"><a href="#">Оптовая продажа</a></li>
+                        <li class="footer__link"><a href="#">О нас</a></li>
+                    </ul>
+                    <ul>
+                        <li class="footer__subtitle">Наши контакты</li>
+                        <li>
+                            <p>Телефоны</p>
+                        </li>
+                        <li class="footer__link"><a href="#">+7 (988) 565 00 38</a></li>
+                        <li class="footer__link"><a href="#">+375 33 662 82 56</a></li>
+                        <li>
+                            <p>Email</p>
+                        </li>
+                        <li class="footer__link"><a href="#">vladpertcev@mail.ru</a></li>
+                        <li class="footer__link"><a href="#">korobko416@gmail.com</a></li>
+                    </ul>
+                    <ul>
+                        <li class="footer__subtitle">Наш адрес</li>
+                        <li><a href="#">Россия,<br> Ростов-на-Дону ул. <br> Богачева, 16</a></li>
+                    </ul>
+                    <ul>
+                        <li class="footer__subtitle">информация</li>
+                        <li class="footer__link"><a href="#">Доставка и оплата</a></li>
+                        <li class="footer__link"><a href="#">Гарантии</a></li>
+                        <li class="footer__link"><a href="#">Возврат товара</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer__bottom">
+                <p>© 2021 Golden Soft All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
     <script type="module" src="./main.js"></script>
 </body>
